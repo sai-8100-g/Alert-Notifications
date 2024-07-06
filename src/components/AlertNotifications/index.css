@@ -1,0 +1,68 @@
+.alert-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  font-family: 'Roboto';
+}
+
+.icons-card {
+  float: left;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+.icons {
+  font-size: 2vw;
+}
+
+.info-container {
+  float: left;
+  width: 80%;
+  padding: 1%;
+}
+
+.info-container > h1 {
+  font-size: 2vw;
+}
+
+.info-container > p {
+  font-size: 1.2vw;
+  color: #64748b;
+}
+
+.cross-icon-card {
+  width: 10%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cross-icon {
+  font-size: 1vw;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.alert {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
